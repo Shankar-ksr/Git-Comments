@@ -1,0 +1,16 @@
+git config --golbal user.name "kethavath shankar" //add user name to git
+git config user.name //to display user name
+git config --golbal user.email "kethavathshenkar123@gmail.com" //Adding email id to git
+git config user.email // To display user email ID
+git config --list //Display all configered propertices
+git inti  // Create a local repository:
+git status //checking status of the pwd/present working directory
+git add ./-A/u //Add a file to staging (Index) area:
+git comite -m "My First Comite(Message)" //Record or snapshots the file permanently in the version history with a message.(OR) comiteing files to github
+git log //git log command will display the most recent commits and the status of the head.
+git clone <Repository path> //Make a local copy of the server repository. (OR) used to make a copy of a repository from an existing URL<remote repository>.
+git pull <Repositoery path>  //Pull command is used to receive data from GitHub. 
+git log //This command is used to check the commit history.
+git remote add origin <Repository Path> 
+//1) Git Remote command is used to connect your local repository to the remote server
+//2) This command allows you to create, view, and delete connections to other repositories
